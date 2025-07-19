@@ -151,11 +151,10 @@ nav > ul > li > a{
     }
     .rectangular-bar-input{
         margin-left: 2rem;
-        padding: 1rem 6rem 1rem 1rem;
     }
     .rectangular-bar-btn{
         margin-left: 2rem;
-        padding: 1rem 5rem;
+        padding: 1rem 27%;
         margin-top: 1rem;
     }
 }
