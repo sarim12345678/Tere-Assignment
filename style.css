@@ -6,7 +6,7 @@ body{
   font-family: 'Gilroy', sans-serif;
 }
 .main-container{
-    max-width: 1200px;
+    max-width: 1100px;
     margin: auto;
 }
 header{
@@ -43,7 +43,7 @@ nav > ul > li > a{
 }
 .container-home{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .home-text-h4{
@@ -77,6 +77,41 @@ nav > ul > li > a{
     height: 24rem;
     width: 22rem;
 }
+.rectangular-bar{
+    margin: auto;
+    margin-top: 4rem;
+    background-color: #75BF7A;
+    width: 52rem;
+    height: 7rem;
+    border-radius: 6px;
+    display: flex;
+}
+.rectangular-bar-pera{
+    color: #FFFFFF;
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
+    width: 12rem;
+    font-size: 20px;
+}
+.rectangular-bar-input{
+    margin: auto;
+    margin-top: 2.5rem;
+    padding:1rem 8rem 1rem 1rem ;
+    border: none;
+    border-radius: 4px;
+}
+.rectangular-bar-btn{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 2.5rem;
+    padding:1rem 2rem ;
+    border: none;
+    border-radius: 4px;
+}
 
 
 
@@ -98,7 +133,7 @@ nav > ul > li > a{
         display: none;
     }
 }
-@media (max-width:833px) {
+@media (max-width:846px) {
     .container-home{
         flex-direction: column-reverse;
         text-align: center;
@@ -107,5 +142,19 @@ nav > ul > li > a{
         font-size: 2rem;
         width: 20rem;
     }
-
+}
+@media (max-width:849px){
+    .rectangular-bar{
+        flex-direction: column;
+        width: 22rem;
+        height: 16rem;
+    }
+    .rectangular-bar-input{
+        margin-left: 2rem;
+    }
+    .rectangular-bar-btn{
+        margin-left: 2rem;
+        padding: 1rem 6rem;
+        margin-top: 1rem;
+    }
 }
