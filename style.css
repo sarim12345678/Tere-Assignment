@@ -223,7 +223,7 @@ span{
 }
 .footer-tere-img{
     margin-top: 4rem;
-    margin-left: 2rem;
+    margin-left: 3.6rem;
     width: 10rem;
 }
 .footer-tere-h5{
@@ -241,7 +241,7 @@ span{
     border: none;
     border-radius: 5px;
     margin-top: 4rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 .footer-btn-2{
     background-color: black;
@@ -252,7 +252,15 @@ span{
     margin-top: 4rem;
     margin-left: 1rem;
 }
-
+hr{
+    margin-top: 2rem;
+    color: #9E9DA2;
+}
+.footer-tere-p-2{
+    text-align: center;
+    color: #75BF7A;
+    margin-top: 3rem;
+}
 
 
 
