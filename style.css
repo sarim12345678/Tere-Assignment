@@ -6,8 +6,10 @@ body{
   font-family: 'Gilroy', sans-serif;
 }
 .main-container{
-    max-width: 1100px;
+    max-width: 1000px;
     margin: auto;
+    background-color: #f8f6f6;
+    border: 2px solid pink;
 }
 header{
     height: 6rem;
@@ -15,6 +17,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #FFFFFF;
 }
 .img_logo{
     height: 3rem;
@@ -112,6 +115,109 @@ nav > ul > li > a{
     border: none;
     border-radius: 4px;
 }
+.tere-benefits-h3{
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 30px;
+}
+span{
+    color: #75BF7A;
+}
+.tere-benefits-box-1{
+    margin-top: 8rem;
+    width: 42rem;
+    height: 12rem;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 5rem;
+}
+.tere-benefits-container-1{
+    display: flex;
+}
+.tere-benefits-img-1{
+    height: 3rem;
+    margin: 2rem;
+}
+.tere-benefits-h4-1{
+    margin-top: 2rem;
+    font-size: 20px;
+    height: 4rem;
+}
+.tere-benefits-frame-1{
+    margin-top: 1rem;
+    margin-left: 18rem;
+    height: 9rem;
+}
+.tere-benefits-p-1{
+    margin-top: -4rem;
+    margin-left: 2rem;
+    width: 18rem;
+}
+.tere-benefits-box-2{
+    margin-top: 4rem;
+    width: 42rem;
+    height: 12rem;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 7.9rem;
+}
+.tere-benefits-container-2{
+    display: flex;
+}
+.tere-benefits-frame-2{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    height: 9rem;
+}
+.tere-benefits-img-2{
+    height: 3rem;
+    margin-top: 2rem;
+    margin-left: 14rem;
+}
+.tere-benefits-h4-2{
+    margin-top: 2rem;
+    font-size: 22px;
+    height: 4rem;
+}
+.tere-benefits-p-2{
+    margin-top: -4rem;
+    margin-left: 27rem;
+    width: 14rem;
+}
+.tere-benefits-box-3{
+    margin-top: 4rem;
+    width: 42rem;
+    height: 12rem;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 5rem;
+}
+.tere-benefits-container-3{
+    display: flex;
+}
+.tere-benefits-img-3{
+    height: 3rem;
+    margin: 2rem;   
+}
+.tere-benefits-h4-3{
+    margin-top: 2rem;
+    font-size: 20px;
+    height: 4rem;
+}
+.tere-benefits-frame-3{
+    margin-top: 1rem;
+    margin-left: 14rem;
+    height: 9rem;
+}
+.tere-benefits-p-3{
+    margin-top: -4rem;
+    margin-left: 2rem;
+    width: 22rem;
+}
+
+
+
+
 
 
 
@@ -157,5 +263,81 @@ nav > ul > li > a{
         margin-left: 2rem;
         padding: 1rem 5rem;
         margin-top: 1rem;
+    }
+    .tere-benefits-box-1{
+        width: 20rem;
+        height: 20rem;
+        margin:auto;
+        margin-top: 2rem;
+    }
+    .tere-benefits-container-1{
+        flex-direction: column;
+    }
+    .tere-benefits-img-1{
+        width: 5rem;
+    }
+    .tere-benefits-h4-1{
+        margin-top: -5rem;
+        margin-left: 8rem;
+    }
+    .tere-benefits-p-1{
+        margin: auto;
+        text-align: center;
+    }
+    .tere-benefits-frame-1{
+        margin: auto;
+        width: 10rem;
+    }
+    .tere-benefits-box-2{
+        width: 20rem;
+        height: 20rem;
+        margin:auto;
+        margin-top: 2rem;
+    }
+    .tere-benefits-container-2{
+        flex-direction: column-reverse;
+    }
+    .tere-benefits-img-2{
+        width: 5rem;
+        margin-top: -4rem;
+        margin-left: 3rem;
+    }
+    .tere-benefits-h4-2{
+        margin-top: 1rem;
+        margin-left: 8rem;
+    }
+    .tere-benefits-p-2{
+        margin: auto;
+        text-align: center;
+    }
+    .tere-benefits-frame-2{
+        margin: auto;
+        width: 10rem;
+        margin-top: 1rem;
+    }
+    .tere-benefits-box-3{
+        width: 20rem;
+        height: 20rem;
+        margin:auto;
+        margin-top: 2rem;
+    }
+    .tere-benefits-container-3{
+        flex-direction: column;
+    }
+    .tere-benefits-img-3{
+        width: 5rem;
+    }
+    .tere-benefits-h4-3{
+        margin-top: -5rem;
+        margin-left: 8rem;
+    }
+    .tere-benefits-p-3{
+        margin: auto;
+        text-align: center;
+        width: 20rem;
+    }
+    .tere-benefits-frame-3{
+        margin: auto;
+        width: 10rem;
     }
 }
