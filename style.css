@@ -9,7 +9,6 @@ body{
     max-width: 1000px;
     margin: auto;
     background-color: #f8f6f6;
-    border: 2px solid pink;
 }
 header{
     height: 6rem;
@@ -139,9 +138,9 @@ span{
     margin: 2rem;
 }
 .tere-benefits-h4-1{
-    margin-top: 2rem;
-    font-size: 20px;
-    height: 4rem;
+    margin-top: 1rem;
+    font-size: 18px;
+    height: 5rem;
 }
 .tere-benefits-frame-1{
     margin-top: 1rem;
@@ -201,7 +200,7 @@ span{
 }
 .tere-benefits-h4-3{
     margin-top: 2rem;
-    font-size: 20px;
+    font-size: 18px;
     height: 4rem;
 }
 .tere-benefits-frame-3{
@@ -213,6 +212,45 @@ span{
     margin-top: -4rem;
     margin-left: 2rem;
     width: 22rem;
+}
+.box-footer{
+    background-color: #FFFFFF;
+    margin-top: 10rem;
+    height: 12rem;
+}
+.footer-container{
+    display: flex;
+}
+.footer-tere-img{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    width: 10rem;
+}
+.footer-tere-h5{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.footer-tere-p{
+    margin-top: 1rem;
+    color: #9E9DA2;
+}
+.footer-btn-1{
+    background-color: black;
+    color: #FFFFFF;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+.footer-btn-2{
+    background-color: black;
+    color: #FFFFFF;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 4rem;
+    margin-left: 1rem;
 }
 
 
@@ -339,5 +377,22 @@ span{
     .tere-benefits-frame-3{
         margin: auto;
         width: 10rem;
+    }
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+        padding: auto;
+    }
+    .footer-tere-img{
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .footer-btn-1{
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .footer-btn-2{
+        margin: auto;
+        margin-top: 1rem;
     }
 }
